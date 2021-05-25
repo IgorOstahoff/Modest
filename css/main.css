@@ -39,7 +39,7 @@ body {
 }
 /* header end */
 
-main {
+.welcome-inner {
   height: 660px;
   background: url(../images/pic.jpg) no-repeat;
   background-size: 100%;
@@ -83,3 +83,23 @@ main {
   border: 2px solid transparent;
   background: #23b7a4;
 }
+/* .splide__list {
+  position: relative;
+}
+.splide__pagination__page {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  justify-content: start;
+}
+.splide__pagination .splide__pagination__page {
+  background: red;
+  width: 13px;
+  height: 13px;
+  border: 2px solid red;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.splide__pagination li {
+  margin-right: 10px;
+} */
