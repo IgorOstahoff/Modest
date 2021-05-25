@@ -3,3 +3,8 @@
 *::after {
   box-sizing: border-box;
 }
+.header {
+  width: 100%;
+  height: 80px;
+  background: #1d2126;
+}
