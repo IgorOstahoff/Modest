@@ -37,6 +37,10 @@ body {
 .header a:hover {
   border: 2px solid #a4aead;
 }
+.header .active {
+  border: 2px solid #23b7a4;
+  color: #23b7a4;
+}
 /* header end */
 
 .welcome-inner {
@@ -95,23 +99,3 @@ body {
   justify-content: flex-end;
   padding-right: 340px;
 }
-/* .splide__list {
-  position: relative;
-}
-.splide__pagination__page {
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
-  justify-content: start;
-}
-.splide__pagination .splide__pagination__page {
-  background: red;
-  width: 13px;
-  height: 13px;
-  border: 2px solid red;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-.splide__pagination li {
-  margin-right: 10px;
-} */ ;
