@@ -42,7 +42,7 @@ body {
 .welcome-inner {
   height: 660px;
   background: url(../images/pic.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .welcome-wrapper {
   width: 1140px;
@@ -83,6 +83,18 @@ body {
   border: 2px solid transparent;
   background: #23b7a4;
 }
+.splide .splide__pagination__page {
+  background-color: transparent;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.splide .splide__pagination {
+  top: 600px;
+  justify-content: flex-end;
+  padding-right: 340px;
+}
 /* .splide__list {
   position: relative;
 }
@@ -102,4 +114,4 @@ body {
 }
 .splide__pagination li {
   margin-right: 10px;
-} */
+} */ ;
